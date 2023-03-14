@@ -1,6 +1,6 @@
 package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.retrofit
 
-import com.readthefuckingmanual.fuckukk.data.source.remote.service.ClientApiService
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.service.ClientApiService
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

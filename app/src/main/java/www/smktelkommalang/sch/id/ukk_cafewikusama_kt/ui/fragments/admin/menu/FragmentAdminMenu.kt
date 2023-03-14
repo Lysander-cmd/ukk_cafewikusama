@@ -21,7 +21,7 @@ import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.main.MainAct
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.menu.FragmentMenu
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.activities.login.LoginActivity
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.login.LoginActivity
 
 class FragmentAdminMenu : Fragment() {
 

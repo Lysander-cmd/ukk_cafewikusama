@@ -1,6 +1,5 @@
 package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.service
 
-import com.readthefuckingmanual.fuckukk.data.source.remote.BasicResponse
 
 import okhttp3.Response
 import retrofit2.Call
@@ -14,6 +13,7 @@ import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.transaksi.Detai
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.transaksi.ListTransaksiResponse
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.user.ListUserAdminResponse
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.user.UserModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.BasicResponse
 
 interface ClientApiService {
 

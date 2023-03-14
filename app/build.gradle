@@ -6,12 +6,12 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "www.smktelkommalang.sch.id.ukk_cafewikusama_kt"
-        minSdk 26
-        targetSdk 32
+        minSdk 27
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 

@@ -17,7 +17,7 @@ import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.FragmentUserBi
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.history.ListHistoryAdapter
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.activities.login.LoginActivity
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.login.LoginActivity
 
 class FragmentUser : Fragment() {
 

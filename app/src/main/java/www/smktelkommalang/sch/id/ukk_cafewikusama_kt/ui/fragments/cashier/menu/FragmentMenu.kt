@@ -12,11 +12,11 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.activities.login.LoginActivity
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.MenuModel
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.MenuRepository
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.preferences.UserPreferences
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.FragmentMenuBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.login.LoginActivity
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.main.MainActivity
 
 class FragmentMenu : Fragment() {

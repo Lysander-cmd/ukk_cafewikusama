@@ -12,11 +12,12 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.activities.login.LoginActivity
+
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.TransaksiRepository
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.preferences.UserPreferences
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.DialogDetailTransaksiBinding
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.FragmentHistoryBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.login.LoginActivity
 
 class FragmentHistory : Fragment() {
 

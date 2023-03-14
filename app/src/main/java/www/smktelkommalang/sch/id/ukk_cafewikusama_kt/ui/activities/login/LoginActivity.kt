@@ -1,4 +1,4 @@
-package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.activities.login
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.login
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
