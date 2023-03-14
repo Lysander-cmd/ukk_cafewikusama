@@ -1,12 +1,12 @@
-package com.readthefuckingmanual.fuckukk.data.repository
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.RecyclerView
-import com.readthefuckingmanual.fuckukk.data.model.menu.ListMenuResponse
-import com.readthefuckingmanual.fuckukk.data.model.menu.MenuModel
-import com.readthefuckingmanual.fuckukk.data.source.remote.datasource.MenuRemoteDataSource
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.ListMenuResponse
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.MenuModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.datasource.MenuRemoteDataSource
 
 object MenuRepository {
     // implements the methods from the MenuDataSources

@@ -1,7 +1,7 @@
-package com.readthefuckingmanual.fuckukk.data.source.preferences
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.preferences
 
 import android.content.Context
-import com.readthefuckingmanual.fuckukk.data.model.user.UserModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.user.UserModel
 
 class UserPreferences(mContext : Context) {
 

@@ -1,4 +1,4 @@
-package com.readthefuckingmanual.fuckukk.data.model.transaksi
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.transaksi
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

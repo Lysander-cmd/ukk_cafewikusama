@@ -1,8 +1,8 @@
-package com.readthefuckingmanual.fuckukk.data.model.transaksi
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.transaksi
 
 import android.os.Parcelable
-import com.readthefuckingmanual.fuckukk.data.model.menu.MenuModel
 import kotlinx.parcelize.Parcelize
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.MenuModel
 
 @Parcelize
 data class DetailTransaksiModel(

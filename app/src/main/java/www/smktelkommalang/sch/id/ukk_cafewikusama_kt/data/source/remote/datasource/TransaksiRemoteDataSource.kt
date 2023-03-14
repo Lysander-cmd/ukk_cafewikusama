@@ -1,12 +1,12 @@
-package com.readthefuckingmanual.fuckukk.data.source.remote.datasource
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.datasource
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
-import com.readthefuckingmanual.fuckukk.data.model.transaksi.DetailTransaksiModel
-import com.readthefuckingmanual.fuckukk.data.model.transaksi.ListTransaksiResponse
-import com.readthefuckingmanual.fuckukk.data.source.remote.retrofit.RetrofitConfig
 import retrofit2.Call
 import retrofit2.Callback
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.transaksi.DetailTransaksiModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.transaksi.ListTransaksiResponse
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.retrofit.RetrofitConfig
 
 object TransaksiRemoteDataSource {
 

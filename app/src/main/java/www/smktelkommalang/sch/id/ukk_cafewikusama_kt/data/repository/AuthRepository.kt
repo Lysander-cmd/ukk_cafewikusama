@@ -1,8 +1,8 @@
-package com.readthefuckingmanual.fuckukk.data.repository
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository
 
 import androidx.lifecycle.LiveData
-import com.readthefuckingmanual.fuckukk.data.model.user.UserModel
-import com.readthefuckingmanual.fuckukk.data.source.remote.datasource.AuthRemoteDataSource
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.user.UserModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.datasource.AuthRemoteDataSource
 
 object AuthRepository {
     fun doLogin(email : String, password : String)  : LiveData<UserModel?>{

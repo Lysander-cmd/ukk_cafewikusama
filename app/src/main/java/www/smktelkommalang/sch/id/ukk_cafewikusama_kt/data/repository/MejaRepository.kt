@@ -1,10 +1,7 @@
-package com.readthefuckingmanual.fuckukk.data.repository
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.readthefuckingmanual.fuckukk.data.model.meja.ListMejaResponse
-import com.readthefuckingmanual.fuckukk.data.model.meja.MejaModel
-import com.readthefuckingmanual.fuckukk.data.source.remote.datasource.MejaRemoteDataSource
 
 object MejaRepository {
 

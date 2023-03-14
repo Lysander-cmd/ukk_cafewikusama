@@ -1,11 +1,10 @@
-package com.readthefuckingmanual.fuckukk.data.repository
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.readthefuckingmanual.fuckukk.data.model.menu.MenuModel
-import com.readthefuckingmanual.fuckukk.data.model.user.ListUserAdminResponse
-import com.readthefuckingmanual.fuckukk.data.model.user.UserAdminModel
-import com.readthefuckingmanual.fuckukk.data.source.remote.datasource.UserRemoteDataSource
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.user.ListUserAdminResponse
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.user.UserAdminModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.datasource.UserRemoteDataSource
 
 object UserRepository {
 

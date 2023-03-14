@@ -1,15 +1,15 @@
-package com.readthefuckingmanual.fuckukk.data.source.remote.datasource
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.datasource
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.readthefuckingmanual.fuckukk.data.model.menu.ListMenuResponse
-import com.readthefuckingmanual.fuckukk.data.model.menu.MenuModel
-import com.readthefuckingmanual.fuckukk.data.source.remote.BasicResponse
-import com.readthefuckingmanual.fuckukk.data.source.remote.retrofit.RetrofitConfig
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.ListMenuResponse
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.MenuModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.BasicResponse
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.retrofit.RetrofitConfig
 
 object MenuRemoteDataSource {
     //TODO

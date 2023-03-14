@@ -1,19 +1,19 @@
-package com.readthefuckingmanual.fuckukk.data.source.remote.service
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.service
 
-import com.readthefuckingmanual.fuckukk.data.model.meja.ListMejaResponse
-import com.readthefuckingmanual.fuckukk.data.model.meja.MejaModel
-import com.readthefuckingmanual.fuckukk.data.model.menu.ListMenuResponse
-import com.readthefuckingmanual.fuckukk.data.model.menu.MenuModel
 import com.readthefuckingmanual.fuckukk.data.source.remote.BasicResponse
-import com.readthefuckingmanual.fuckukk.data.model.transaksi.DetailTransaksiModel
-import com.readthefuckingmanual.fuckukk.data.model.transaksi.ListTransaksiResponse
-import com.readthefuckingmanual.fuckukk.data.model.transaksi.TransaksiModel
-import com.readthefuckingmanual.fuckukk.data.model.user.ListUserAdminResponse
-import com.readthefuckingmanual.fuckukk.data.model.user.UserModel
+
 import okhttp3.Response
 import retrofit2.Call
 
 import retrofit2.http.*
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.meja.ListMejaResponse
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.meja.MejaModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.ListMenuResponse
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.MenuModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.transaksi.DetailTransaksiModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.transaksi.ListTransaksiResponse
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.user.ListUserAdminResponse
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.user.UserModel
 
 interface ClientApiService {
 

@@ -1,9 +1,9 @@
-package com.readthefuckingmanual.fuckukk.data.repository
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository
 
 import androidx.lifecycle.MutableLiveData
-import com.readthefuckingmanual.fuckukk.data.model.transaksi.DetailTransaksiModel
-import com.readthefuckingmanual.fuckukk.data.model.transaksi.ListTransaksiResponse
-import com.readthefuckingmanual.fuckukk.data.source.remote.datasource.TransaksiRemoteDataSource
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.transaksi.DetailTransaksiModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.transaksi.ListTransaksiResponse
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.datasource.TransaksiRemoteDataSource
 
 object TransaksiRepository {
 
