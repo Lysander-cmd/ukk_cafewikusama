@@ -16,6 +16,15 @@
     <!--        android:layout_width="match_parent"-->
     <!--        android:layout_height="wrap_content"-->
     <!--        android:text="Username" />-->
+
+    <ImageView
+        android:id="@+id/logoPizzaLogin"
+        android:layout_width="244dp"
+        android:layout_height="244dp"
+        android:layout_gravity="center"
+        android:padding="@dimen/activity_vertical_margin"
+        android:src="@drawable/ic_baseline_local_pizza_24" />
+
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
