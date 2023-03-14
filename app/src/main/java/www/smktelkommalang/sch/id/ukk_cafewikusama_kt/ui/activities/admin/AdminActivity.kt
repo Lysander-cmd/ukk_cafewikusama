@@ -1,4 +1,4 @@
-package com.readthefuckingmanual.fuckukk.ui.activities.admin
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.admin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
