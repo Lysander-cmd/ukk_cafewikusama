@@ -4,19 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
-    android:gravity="center"
+    android:layout_gravity="end"
+    android:gravity="end|bottom"
+    android:background="@color/amber"
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".ui.activities.login.LoginActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:padding="16dp"
-        android:text="LOGIN"
-        android:textSize="18sp" />
 
     <!--    <TextView-->
     <!--        android:id="@+id/tvUsername"-->
@@ -54,6 +47,9 @@
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/white"
         android:text="Login" />
 
 </LinearLayout>
