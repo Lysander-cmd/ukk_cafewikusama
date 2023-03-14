@@ -1,4 +1,4 @@
-package com.readthefuckingmanual.fuckukk.ui.fragments.cashier.menu
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.menu
 
 import android.view.*
 import androidx.recyclerview.widget.RecyclerView
@@ -6,6 +6,8 @@ import com.bumptech.glide.Glide
 import com.readthefuckingmanual.fuckukk.data.model.menu.MenuModel
 import com.readthefuckingmanual.fuckukk.data.repository.MenuRepository
 import com.readthefuckingmanual.fuckukk.databinding.ItemCashierMenuBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.MenuModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.MenuRepository
 
 class ListMenuAdapter(
     private val observeSelectedMenu: () -> Unit

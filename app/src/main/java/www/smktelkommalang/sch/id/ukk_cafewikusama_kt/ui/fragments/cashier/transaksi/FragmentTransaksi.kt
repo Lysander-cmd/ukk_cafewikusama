@@ -1,4 +1,4 @@
-package com.readthefuckingmanual.fuckukk.ui.fragments.cashier.transaksi
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.transaksi
 
 import android.os.Bundle
 import android.text.Editable
@@ -13,15 +13,13 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.readthefuckingmanual.fuckukk.R
-import com.readthefuckingmanual.fuckukk.data.repository.MenuRepository
-import com.readthefuckingmanual.fuckukk.data.repository.TransaksiRepository
-import com.readthefuckingmanual.fuckukk.data.source.preferences.UserPreferences
-import com.readthefuckingmanual.fuckukk.data.source.remote.datasource.MejaRemoteDataSource
-import com.readthefuckingmanual.fuckukk.databinding.FragmentTransaksiBinding
-import com.readthefuckingmanual.fuckukk.ui.activities.main.MainActivity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.MenuRepository
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.TransaksiRepository
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.preferences.UserPreferences
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.datasource.MejaRemoteDataSource
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.main.MainActivity
 
 class FragmentTransaksi : Fragment() {
 
@@ -85,7 +83,7 @@ class FragmentTransaksi : Fragment() {
 
     fun setupSpinner(){
 //        var listMejaAvailable: List<MejaModel?>? = listOf()
-        MejaRemoteDataSource.mejaList.observe(viewLifecycleOwner) {listMeja ->
+        MejaRemoteDataSource.mejaList.observe(viewLifecycleOwner) { listMeja ->
             val listMejaAvailable = listMeja?.values?.filter {
                 it?.available == 1
             }

@@ -1,10 +1,11 @@
-package com.readthefuckingmanual.fuckukk.ui.fragments.cashier.history
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.history
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.readthefuckingmanual.fuckukk.data.model.menu.MenuModel
 import com.readthefuckingmanual.fuckukk.databinding.ItemCashierTransactionBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.MenuModel
 
 class ListItemTransaksiDetailAdapter : RecyclerView.Adapter<ListItemTransaksiDetailAdapter.ListItemDetailTransaksiViewHolder>() {
     private val listItemData : ArrayList<MenuModel> = arrayListOf()

@@ -4,11 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/activity_admin.xml" value="0.1921875" />
+        <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/activity_login.xml" value="0.13489583333333333" />
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/activity_main.xml" value="0.178125" />
+        <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/dialog_detail_transaksi.xml" value="0.13489583333333333" />
+        <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/fragment_add_table.xml" value="0.536" />
+        <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/fragment_add_user.xml" value="0.8" />
+        <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/fragment_admin_menu.xml" value="0.13489583333333333" />
+        <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/fragment_crud_menu.xml" value="0.2" />
+        <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/menu/nav_bar_menu_admin.xml" value="0.13489583333333333" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

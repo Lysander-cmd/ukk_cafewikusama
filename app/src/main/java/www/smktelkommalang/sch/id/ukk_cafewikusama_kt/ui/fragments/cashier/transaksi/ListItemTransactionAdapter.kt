@@ -1,4 +1,4 @@
-package com.readthefuckingmanual.fuckukk.ui.fragments.cashier.transaksi
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.transaksi
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -9,6 +9,7 @@ import com.bumptech.glide.Glide
 import com.readthefuckingmanual.fuckukk.data.model.menu.MenuModel
 import com.readthefuckingmanual.fuckukk.databinding.ItemCashierTransactionBinding
 import com.readthefuckingmanual.fuckukk.ui.fragments.cashier.menu.ListMenuAdapter
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.MenuModel
 
 class ListItemTransactionAdapter : RecyclerView.Adapter<ListItemTransactionAdapter.ListItemTransactionViewHolder>(){
 
