@@ -1,4 +1,4 @@
-package com.readthefuckingmanual.fuckukk.ui.fragments.admin.menu
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.admin.menu
 
 import android.content.Intent
 import android.os.Bundle
@@ -19,6 +19,7 @@ import com.readthefuckingmanual.fuckukk.databinding.FragmentAdminMenuBinding
 import com.readthefuckingmanual.fuckukk.ui.activities.admin.AdminActivity
 import com.readthefuckingmanual.fuckukk.ui.activities.login.LoginActivity
 import com.readthefuckingmanual.fuckukk.ui.activities.main.MainActivity
+import com.readthefuckingmanual.fuckukk.ui.fragments.admin.menu.ListAdminMenuAdapter
 import com.readthefuckingmanual.fuckukk.ui.fragments.cashier.menu.FragmentMenu
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

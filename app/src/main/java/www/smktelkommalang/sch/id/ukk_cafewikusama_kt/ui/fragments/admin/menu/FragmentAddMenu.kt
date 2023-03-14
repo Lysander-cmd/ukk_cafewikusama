@@ -1,4 +1,4 @@
-package com.readthefuckingmanual.fuckukk.ui.fragments.admin.menu
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.admin.menu
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
