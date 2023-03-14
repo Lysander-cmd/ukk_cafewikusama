@@ -42,12 +42,26 @@
             android:padding="16dp">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Menu"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                app:layout_constraintBottom_toTopOf="@+id/tvCashierText"
+                app:layout_constraintEnd_toEndOf="@+id/btnLogoutCashierMenu"
+                app:layout_constraintStart_toStartOf="@+id/tvSayHello"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
                 android:id="@+id/tvCashierText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
                 android:fontFamily="@font/poppins_semi_bold"
-                android:textColor="@color/green"
                 android:text="Cashier"
+                android:textColor="@color/green"
                 android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -57,7 +71,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_semi_bold"
-                android:layout_marginBottom="32dp"
                 android:text="Name"
                 android:textColor="@color/green"
                 android:textSize="16sp"
