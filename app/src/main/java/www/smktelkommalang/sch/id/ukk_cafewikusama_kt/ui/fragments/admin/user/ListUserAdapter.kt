@@ -1,10 +1,10 @@
-package com.readthefuckingmanual.fuckukk.ui.fragments.admin.user
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.admin.user
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.readthefuckingmanual.fuckukk.data.model.user.UserAdminModel
-import com.readthefuckingmanual.fuckukk.databinding.ItemAdminUserBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.user.UserAdminModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.ItemAdminUserBinding
 
 class ListUserAdapter(
     private val observeSelectedUser: () -> Unit

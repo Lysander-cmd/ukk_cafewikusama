@@ -1,4 +1,4 @@
-package com.readthefuckingmanual.fuckukk.ui.fragments.admin.user
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.admin.user
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,13 +9,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.readthefuckingmanual.fuckukk.R
-import com.readthefuckingmanual.fuckukk.data.model.user.UserAdminModel
-import com.readthefuckingmanual.fuckukk.data.repository.UserRepository
-import com.readthefuckingmanual.fuckukk.data.source.preferences.UserPreferences
-import com.readthefuckingmanual.fuckukk.databinding.FragmentUserBinding
-import com.readthefuckingmanual.fuckukk.ui.activities.login.LoginActivity
-import com.readthefuckingmanual.fuckukk.ui.fragments.cashier.history.ListHistoryAdapter
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.R
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.user.UserAdminModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.UserRepository
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.preferences.UserPreferences
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.FragmentUserBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.login.LoginActivity
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.history.ListHistoryAdapter
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

@@ -5,15 +5,15 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
-import com.readthefuckingmanual.fuckukk.R
-import com.readthefuckingmanual.fuckukk.data.repository.MenuRepository
-import com.readthefuckingmanual.fuckukk.data.source.preferences.UserPreferences
-import com.readthefuckingmanual.fuckukk.databinding.ActivityAdminBinding
-import com.readthefuckingmanual.fuckukk.ui.fragments.admin.menu.FragmentAdminMenu
-import com.readthefuckingmanual.fuckukk.ui.fragments.admin.menu.FragmentCrudMenu
-import com.readthefuckingmanual.fuckukk.ui.fragments.admin.table.FragmentCrudTable
-import com.readthefuckingmanual.fuckukk.ui.fragments.admin.table.FragmentTable
-import com.readthefuckingmanual.fuckukk.ui.fragments.admin.user.FragmentUser
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.R
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.MenuRepository
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.preferences.UserPreferences
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.ActivityAdminBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.fragments.admin.menu.FragmentAdminMenu
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.fragments.admin.menu.FragmentCrudMenu
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.fragments.admin.table.FragmentCrudTable
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.fragments.admin.table.FragmentTable
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.fragments.admin.user.FragmentUser
 
 class AdminActivity : AppCompatActivity() {
 

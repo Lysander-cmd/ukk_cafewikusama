@@ -1,4 +1,4 @@
-package com.readthefuckingmanual.fuckukk.ui.fragments.admin.table
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.admin.table
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,14 +7,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.readthefuckingmanual.fuckukk.R
-import com.readthefuckingmanual.fuckukk.data.model.meja.MejaModel
-import com.readthefuckingmanual.fuckukk.data.source.preferences.UserPreferences
-import com.readthefuckingmanual.fuckukk.data.source.remote.datasource.MejaRemoteDataSource
-import com.readthefuckingmanual.fuckukk.databinding.FragmentTableBinding
-import com.readthefuckingmanual.fuckukk.ui.activities.admin.AdminActivity
-import com.readthefuckingmanual.fuckukk.ui.activities.login.LoginActivity
-import com.readthefuckingmanual.fuckukk.ui.fragments.cashier.menu.FragmentMenu
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.R
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.meja.MejaModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.preferences.UserPreferences
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.datasource.MejaRemoteDataSource
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.FragmentTableBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.admin.AdminActivity
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.login.LoginActivity
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.menu.FragmentMenu
 
 class FragmentTable : Fragment() {
 

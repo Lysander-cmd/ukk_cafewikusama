@@ -1,11 +1,11 @@
-package com.readthefuckingmanual.fuckukk.ui.fragments.admin.table
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.admin.table
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.readthefuckingmanual.fuckukk.data.model.meja.MejaModel
-import com.readthefuckingmanual.fuckukk.databinding.ItemAdminTableBinding
-import com.readthefuckingmanual.fuckukk.databinding.ItemCashierMenuBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.meja.MejaModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.ItemAdminTableBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.ItemCashierMenuBinding
 
 class ListTableAdapter (
 //      private val observeSelectedMeja: () -> Unit

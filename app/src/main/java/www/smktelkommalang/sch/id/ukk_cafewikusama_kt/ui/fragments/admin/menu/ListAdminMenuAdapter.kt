@@ -1,4 +1,4 @@
-package com.readthefuckingmanual.fuckukk.ui.fragments.admin.menu
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.admin.menu
 
 import android.view.LayoutInflater
 import android.view.Menu
@@ -6,10 +6,10 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.readthefuckingmanual.fuckukk.data.model.menu.MenuModel
-import com.readthefuckingmanual.fuckukk.data.repository.MenuRepository
-import com.readthefuckingmanual.fuckukk.databinding.FragmentAdminMenuBinding
-import com.readthefuckingmanual.fuckukk.databinding.ItemAdminMenuBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.MenuModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.MenuRepository
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.FragmentAdminMenuBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.ItemAdminMenuBinding
 
 class ListAdminMenuAdapter(
     private val observeSelectedMenu: (MenuModel) -> Unit

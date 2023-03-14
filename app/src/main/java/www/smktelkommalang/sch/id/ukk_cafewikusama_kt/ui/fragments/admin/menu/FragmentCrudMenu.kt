@@ -1,4 +1,4 @@
-package com.readthefuckingmanual.fuckukk.ui.fragments.admin.menu
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.admin.menu
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,12 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
-import com.readthefuckingmanual.fuckukk.data.model.menu.MenuModel
-import com.readthefuckingmanual.fuckukk.data.repository.MenuRepository
-import com.readthefuckingmanual.fuckukk.data.source.preferences.UserPreferences
-import com.readthefuckingmanual.fuckukk.databinding.FragmentCrudMenuBinding
-import com.readthefuckingmanual.fuckukk.databinding.FragmentMenuBinding
-import com.readthefuckingmanual.fuckukk.ui.activities.admin.AdminActivity
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.MenuModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.MenuRepository
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.preferences.UserPreferences
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.FragmentCrudMenuBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.FragmentMenuBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.admin.AdminActivity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

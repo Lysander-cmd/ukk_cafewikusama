@@ -1,4 +1,4 @@
-package com.readthefuckingmanual.fuckukk.ui.activities.main
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.main
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
@@ -11,15 +11,15 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_CLOSE
 import androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_OPEN
 import androidx.lifecycle.lifecycleScope
-import com.readthefuckingmanual.fuckukk.R
-import com.readthefuckingmanual.fuckukk.data.repository.MejaRepository
-import com.readthefuckingmanual.fuckukk.data.repository.MenuRepository
-import com.readthefuckingmanual.fuckukk.data.source.preferences.UserPreferences
-import com.readthefuckingmanual.fuckukk.data.source.remote.datasource.MejaRemoteDataSource
-import com.readthefuckingmanual.fuckukk.databinding.ActivityMainBinding
-import com.readthefuckingmanual.fuckukk.ui.fragments.cashier.history.FragmentHistory
-import com.readthefuckingmanual.fuckukk.ui.fragments.cashier.menu.FragmentMenu
-import com.readthefuckingmanual.fuckukk.ui.fragments.cashier.transaksi.FragmentTransaksi
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.R
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.MejaRepository
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.MenuRepository
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.preferences.UserPreferences
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.datasource.MejaRemoteDataSource
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.ActivityMainBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.history.FragmentHistory
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.menu.FragmentMenu
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.transaksi.FragmentTransaksi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

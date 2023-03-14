@@ -1,11 +1,11 @@
-package com.readthefuckingmanual.fuckukk.ui.fragments.admin.table
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.admin.table
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.readthefuckingmanual.fuckukk.R
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.R
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

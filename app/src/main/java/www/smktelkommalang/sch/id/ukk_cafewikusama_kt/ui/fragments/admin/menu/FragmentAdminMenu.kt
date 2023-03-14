@@ -1,4 +1,4 @@
-package com.readthefuckingmanual.fuckukk.ui.fragments.admin.menu
+package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.admin.menu
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,15 +11,15 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.readthefuckingmanual.fuckukk.R
-import com.readthefuckingmanual.fuckukk.data.model.menu.MenuModel
-import com.readthefuckingmanual.fuckukk.data.repository.MenuRepository
-import com.readthefuckingmanual.fuckukk.data.source.preferences.UserPreferences
-import com.readthefuckingmanual.fuckukk.databinding.FragmentAdminMenuBinding
-import com.readthefuckingmanual.fuckukk.ui.activities.admin.AdminActivity
-import com.readthefuckingmanual.fuckukk.ui.activities.login.LoginActivity
-import com.readthefuckingmanual.fuckukk.ui.activities.main.MainActivity
-import com.readthefuckingmanual.fuckukk.ui.fragments.cashier.menu.FragmentMenu
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.R
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.MenuModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.MenuRepository
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.preferences.UserPreferences
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.FragmentAdminMenuBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.admin.AdminActivity
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.login.LoginActivity
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.main.MainActivity
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.menu.FragmentMenu
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
