@@ -17,11 +17,11 @@ import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.MenuReposi
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.preferences.UserPreferences
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.FragmentAdminMenuBinding
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.admin.AdminActivity
-import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.login.LoginActivity
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.main.MainActivity
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.menu.FragmentMenu
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.activities.login.LoginActivity
 
 class FragmentAdminMenu : Fragment() {
 

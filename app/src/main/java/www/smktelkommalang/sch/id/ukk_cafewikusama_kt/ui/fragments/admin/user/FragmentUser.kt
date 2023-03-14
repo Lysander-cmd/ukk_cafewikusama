@@ -14,10 +14,10 @@ import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.user.UserAdminM
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.UserRepository
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.preferences.UserPreferences
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.FragmentUserBinding
-import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.login.LoginActivity
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.history.ListHistoryAdapter
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.activities.login.LoginActivity
 
 class FragmentUser : Fragment() {
 

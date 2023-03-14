@@ -9,11 +9,11 @@ import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.R
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.MenuRepository
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.preferences.UserPreferences
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.ActivityAdminBinding
-import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.fragments.admin.menu.FragmentAdminMenu
-import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.fragments.admin.menu.FragmentCrudMenu
-import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.fragments.admin.table.FragmentCrudTable
-import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.fragments.admin.table.FragmentTable
-import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.fragments.admin.user.FragmentUser
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.admin.menu.FragmentAdminMenu
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.admin.menu.FragmentCrudMenu
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.admin.table.FragmentCrudTable
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.admin.table.FragmentTable
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.admin.user.FragmentUser
 
 class AdminActivity : AppCompatActivity() {
 

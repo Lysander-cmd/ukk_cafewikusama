@@ -6,10 +6,8 @@ import androidx.appcompat.view.menu.ListMenuItemView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.readthefuckingmanual.fuckukk.data.model.menu.MenuModel
-import com.readthefuckingmanual.fuckukk.databinding.ItemCashierTransactionBinding
-import com.readthefuckingmanual.fuckukk.ui.fragments.cashier.menu.ListMenuAdapter
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.MenuModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.ItemCashierTransactionBinding
 
 class ListItemTransactionAdapter : RecyclerView.Adapter<ListItemTransactionAdapter.ListItemTransactionViewHolder>(){
 

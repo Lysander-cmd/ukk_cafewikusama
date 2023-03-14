@@ -10,20 +10,13 @@ import android.view.ViewGroup
 import androidx.fragment.app.FragmentTransaction
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.readthefuckingmanual.fuckukk.R
-
-import com.readthefuckingmanual.fuckukk.data.model.menu.MenuModel
-import com.readthefuckingmanual.fuckukk.data.repository.MenuRepository
-import com.readthefuckingmanual.fuckukk.data.source.preferences.UserPreferences
-import com.readthefuckingmanual.fuckukk.databinding.FragmentMenuBinding
-import com.readthefuckingmanual.fuckukk.ui.activities.login.LoginActivity
-import com.readthefuckingmanual.fuckukk.ui.activities.main.MainActivity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.activities.login.LoginActivity
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.MenuModel
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.MenuRepository
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.preferences.UserPreferences
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.FragmentMenuBinding
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.main.MainActivity
 
 class FragmentMenu : Fragment() {

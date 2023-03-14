@@ -10,18 +10,13 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.readthefuckingmanual.fuckukk.data.repository.TransaksiRepository
-import com.readthefuckingmanual.fuckukk.data.source.preferences.UserPreferences
-import com.readthefuckingmanual.fuckukk.databinding.DialogDetailTransaksiBinding
-import com.readthefuckingmanual.fuckukk.databinding.FragmentHistoryBinding
-import com.readthefuckingmanual.fuckukk.ui.activities.login.LoginActivity
-import com.readthefuckingmanual.fuckukk.ui.activities.main.MainActivity
-import com.readthefuckingmanual.fuckukk.ui.fragments.cashier.history.ListHistoryAdapter
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.activities.login.LoginActivity
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.TransaksiRepository
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.preferences.UserPreferences
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.DialogDetailTransaksiBinding
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.FragmentHistoryBinding
 
 class FragmentHistory : Fragment() {
 

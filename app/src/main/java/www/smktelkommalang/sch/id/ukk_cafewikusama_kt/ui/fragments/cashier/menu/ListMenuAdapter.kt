@@ -3,11 +3,9 @@ package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.menu
 import android.view.*
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.readthefuckingmanual.fuckukk.data.model.menu.MenuModel
-import com.readthefuckingmanual.fuckukk.data.repository.MenuRepository
-import com.readthefuckingmanual.fuckukk.databinding.ItemCashierMenuBinding
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.MenuModel
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.MenuRepository
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.ItemCashierMenuBinding
 
 class ListMenuAdapter(
     private val observeSelectedMenu: () -> Unit
@@ -22,7 +20,7 @@ class ListMenuAdapter(
         notifyDataSetChanged()
     }
 
-    inner class ListMenuViewHolder(private val binding: ItemCashierMenuBinding,  private val observeSelectedMenu: () -> Unit) : RecyclerView.ViewHolder(binding.root) {
+    inner class ListMenuViewHolder(private val binding: ItemCashierMenuBinding, private val observeSelectedMenu: () -> Unit) : RecyclerView.ViewHolder(binding.root) {
         fun bind(menuItem: MenuModel){
 
             binding.apply{

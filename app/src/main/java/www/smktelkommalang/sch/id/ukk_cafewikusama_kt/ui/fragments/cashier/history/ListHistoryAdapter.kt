@@ -3,9 +3,8 @@ package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.hist
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.readthefuckingmanual.fuckukk.data.model.transaksi.TransaksiModel
-import com.readthefuckingmanual.fuckukk.databinding.ItemCashierHistoryBinding
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.transaksi.TransaksiModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.ItemCashierHistoryBinding
 
 class ListHistoryAdapter(private val observeSelectedHistory: (Int) -> Unit) : RecyclerView.Adapter<ListHistoryAdapter.ListMenuViewHolder>() {
 

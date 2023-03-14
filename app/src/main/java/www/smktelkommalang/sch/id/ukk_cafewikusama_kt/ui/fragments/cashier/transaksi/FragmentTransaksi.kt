@@ -15,10 +15,12 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.R
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.MenuRepository
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.repository.TransaksiRepository
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.preferences.UserPreferences
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.datasource.MejaRemoteDataSource
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.FragmentTransaksiBinding
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.activities.main.MainActivity
 
 class FragmentTransaksi : Fragment() {

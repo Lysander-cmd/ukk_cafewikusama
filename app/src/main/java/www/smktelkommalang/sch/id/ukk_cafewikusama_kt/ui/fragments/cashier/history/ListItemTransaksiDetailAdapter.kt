@@ -3,9 +3,8 @@ package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.ui.fragments.cashier.hist
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.readthefuckingmanual.fuckukk.data.model.menu.MenuModel
-import com.readthefuckingmanual.fuckukk.databinding.ItemCashierTransactionBinding
 import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.model.menu.MenuModel
+import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.ItemCashierTransactionBinding
 
 class ListItemTransaksiDetailAdapter : RecyclerView.Adapter<ListItemTransaksiDetailAdapter.ListItemDetailTransaksiViewHolder>() {
     private val listItemData : ArrayList<MenuModel> = arrayListOf()
