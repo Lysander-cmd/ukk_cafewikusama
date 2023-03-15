@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/drawable/custom_navbar.xml" value="0.104" />
+        <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/drawable/ic_baseline_local_pizza_24.xml" value="0.1" />
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/drawable/ic_basket.xml" value="0.104" />
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/drawable/ic_clipboard_text_clock.xml" value="0.1055" />
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/drawable/ic_history.xml" value="0.1" />
@@ -11,7 +12,7 @@
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/drawable/ic_silverware.xml" value="0.1" />
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/drawable/navbar_item_selection_state.xml" value="0.1" />
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/activity_admin.xml" value="0.1921875" />
-        <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/activity_login.xml" value="0.12060301507537688" />
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/dialog_detail_transaksi.xml" value="0.13489583333333333" />
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/fragment_add_menu.xml" value="0.1921875" />
@@ -21,6 +22,7 @@
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/fragment_crud_menu.xml" value="0.2" />
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/fragment_history.xml" value="0.2" />
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/fragment_menu.xml" value="0.2" />
+        <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/fragment_table.xml" value="0.1983695652173913" />
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/layout/item_admin_menu.xml" value="0.13489583333333333" />
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/menu/nav_bar_menu_admin.xml" value="0.2" />
         <entry key="..\:/ukk_cafewikusama_kt/app/src/main/res/menu/navbar_menu.xml" value="0.264" />
