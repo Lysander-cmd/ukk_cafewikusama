@@ -9,43 +9,44 @@ import www.smktelkommalang.sch.id.ukk_cafewikusama_kt.databinding.ItemCashierMen
 
 class ListTableAdapter (
 //      private val observeSelectedMeja: () -> Unit
-    ) : RecyclerView.Adapter<ListTableAdapter.ListTableViewHolder>() {
+) : RecyclerView.Adapter<ListTableAdapter.ListTableViewHolder>() {
 
     private var tableList:ArrayList<MejaModel> = arrayListOf()
-        fun setData(data : List<MejaModel>){
-            tableList.apply{
-                clear()
-                addAll(data)
-            }
-            notifyDataSetChanged()
+    fun setData(data : List<MejaModel>){
+        tableList.apply{
+            clear()
+            addAll(data)
         }
+        notifyDataSetChanged()
+    }
 
-        inner class ListTableViewHolder(private val binding: ItemAdminTableBinding,
+    inner class ListTableViewHolder(private val binding: ItemAdminTableBinding,
 //                                        private val observeSelectedMeja: () -> Unit
-        ) : RecyclerView.ViewHolder(binding.root){
-            fun bind(mejaItem: MejaModel){
+    ) : RecyclerView.ViewHolder(binding.root){
+        fun bind(mejaItem: MejaModel){
 
-                binding.apply {
-                    tvAdminNamaMeja.text = mejaItem.nomor_meja
-                }
+            binding.apply {
+                tvAdminNamaMeja.text = mejaItem.nomor_meja
             }
         }
+    }
 
-        override fun onCreateViewHolder(
-            parent: ViewGroup,
-            viewType: Int
-        ): ListTableAdapter.ListTableViewHolder {
-            val viewBinding =
-                ItemAdminTableBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-            return ListTableViewHolder(viewBinding) //observeSelectedMeja)
+    override fun onCreateViewHolder(
+        parent: ViewGroup,
+        viewType: Int
+    ): ListTableAdapter.ListTableViewHolder {
+        val viewBinding =
+            ItemAdminTableBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return ListTableViewHolder(viewBinding) //observeSelectedMeja)
+    }
+
+    override fun onBindViewHolder(holder: ListTableAdapter.ListTableViewHolder, position: Int) {
+        val item = tableList[position]
+        holder.bind(item)
+    }
+
+    override fun getItemCount(): Int {
+        return tableList.size
         }
 
-        override fun onBindViewHolder(holder: ListTableAdapter.ListTableViewHolder, position: Int) {
-            val item = tableList[position]
-            holder.bind(item)
-        }
-
-        override fun getItemCount(): Int {
-            return tableList.size
-        }
     }

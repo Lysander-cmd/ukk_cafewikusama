@@ -1,8 +1,6 @@
 package www.smktelkommalang.sch.id.ukk_cafewikusama_kt.data.source.remote.datasource
-
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -26,9 +24,9 @@ object MejaRemoteDataSource {
                     response: Response<ListMejaResponse?>
                 ) {
 
-                        if (response.isSuccessful){
-                            _mejaList.value = response.body()
-                        }
+                    if (response.isSuccessful){
+                        _mejaList.value = response.body()
+                    }
                 }
 
                 override fun onFailure(call: retrofit2.Call<ListMejaResponse?>, t: Throwable) {
@@ -38,20 +36,20 @@ object MejaRemoteDataSource {
     }
 
     fun addMeja(token : String, nomeja: String)  {
-       RetrofitConfig.ApiService.addMeja(token, nomeja).enqueue( object :Callback<BasicResponse?> {
-           override fun onResponse(call: Call<BasicResponse?>, response: Response<BasicResponse?>) {
-               if (response.isSuccessful){
-                   _addmejarespons.value = response.body()
-               }
-           }
+        RetrofitConfig.ApiService.addMeja("Bearer $token", nomeja).enqueue( object :Callback<BasicResponse?> {
+            override fun onResponse(call: Call<BasicResponse?>, response: Response<BasicResponse?>) {
+                if (response.isSuccessful){
+                    _addmejarespons.value = response.body()
+                }
+            }
 
-           override fun onFailure(call: Call<BasicResponse?>, t: Throwable) {
-               _addmejarespons.postValue(null)
-           }
+            override fun onFailure(call: Call<BasicResponse?>, t: Throwable) {
+                _addmejarespons.postValue(null)
+            }
 
-       }
+        }
 
-       )
+        )
     }
 
 }

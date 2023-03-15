@@ -14,3 +14,15 @@ data class MenuModel(
     var nama_menu: String?,
     var path: String?
 ) : Parcelable
+
+@Parcelize
+data class UpdateMenuModel(
+    var status : String?,
+    var deskripsi: String?,
+    var filename: String?,
+    var harga: String,
+    var id_menu: Int?,
+    var jenis: String?,
+    var nama_menu: String?,
+    var path: String?
+) : Parcelable

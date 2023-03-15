@@ -37,21 +37,22 @@ class FragmentCrudTable : Fragment() {
     }
 
     private fun observeAddMeja() {
+//        val token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb3dzIjpbeyJpZF91c2VyIjoxNywiZW1haWwiOiJpbmZlcm5vNEBnbWFpbC5jb20iLCJuYW1hX3VzZXIiOiJJbmZlcm5vIiwicm9sZSI6ImFkbWluIiwidXNlcm5hbWUiOiJJbmZlcm5vIiwicGFzc3dvcmQiOiI1N2M5YjdiY2M3NTI0NDljNTM3ZGUxMTE5YjA2NjU3MSJ9XSwiaWF0IjoxNjc4ODEyMjk5LCJleHAiOjE2ODAyNTIyOTl9.ZR2Moj9Yj3IVovGwY1SN2r4KraGCUbPRmRNl-rBoIZc"
         binding?.apply {
             btnAddMeja.setOnClickListener {
-            if (editNamaMeja.text.isNotEmpty()){
-                MejaRemoteDataSource.apply {
-                    addMeja(userToken.toString(), editNamaMeja.text.toString())
-                    mejaResponse.observe(viewLifecycleOwner){
-                        if(it?.status == "Success"){
-                            viewLifecycleOwner.lifecycleScope.launch(Dispatchers.Main) {
-                                (activity as AdminActivity).moveToAdminTableFragment()
+                if (editNamaMeja.text.isNotEmpty()){
+                    MejaRemoteDataSource.apply {
+                        addMeja(userToken!!, editNamaMeja.text.toString())
+                        mejaResponse.observe(viewLifecycleOwner){
+                            if(it?.status == "Success"){
+                                viewLifecycleOwner.lifecycleScope.launch(Dispatchers.Main) {
+                                    (activity as AdminActivity).moveToAdminTableFragment()
 
+                                }
                             }
                         }
                     }
                 }
-            }
             }
         }
     }
@@ -76,4 +77,5 @@ class FragmentCrudTable : Fragment() {
             FragmentCrudTable()
 
     }
+
 }

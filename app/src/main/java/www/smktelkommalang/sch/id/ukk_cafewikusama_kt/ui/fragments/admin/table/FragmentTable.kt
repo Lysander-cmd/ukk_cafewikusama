@@ -90,6 +90,8 @@ class FragmentTable : Fragment() {
         @JvmStatic
         fun newInstance() =
             FragmentTable()
-    }
+        }
+
+
 
 }
